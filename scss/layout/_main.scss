@@ -1,0 +1,30 @@
+.main{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    @extend %side;
+    a{
+        transition: .3s all;
+        text-align: center;
+        color: white;
+        font-weight: 600;
+        display: inline-block;
+        margin-top: 1.3rem;
+        text-decoration: none;
+        padding: 1rem 2rem;
+        background-color: $primary;
+        border-radius: 50px;
+    }
+    a:hover{
+        background-color: $hover;
+    }
+    h2{
+        margin: 1.5rem 0 ;
+        text-align: center;
+    }
+
+
+
+}

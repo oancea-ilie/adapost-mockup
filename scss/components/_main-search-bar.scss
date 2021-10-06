@@ -1,0 +1,25 @@
+.search-bar{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    input{
+        width: 10rem;
+        border: 1px solid grey;
+        border-radius: 4px;
+        padding: 0.2rem 1rem;
+    }
+    input:focus{
+        outline: none;
+        border: 2px solid $primary;
+    }
+    i{
+        margin-left: -1.3rem;
+    }
+    i:hover{
+        transition: .3s all;
+        cursor: pointer;
+        color: $primary;
+    }
+}

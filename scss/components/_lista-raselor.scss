@@ -1,0 +1,16 @@
+.lista-raselor{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h2{
+        margin: 1.5rem 0;
+    }
+    select{
+        padding: 0.5rem;
+        border-radius: 5px;
+        font-size: 1.2rem;
+    }
+
+}

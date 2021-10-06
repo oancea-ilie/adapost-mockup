@@ -1,0 +1,35 @@
+// utilities
+@import 
+'utilities/variables',
+
+'utilities/mixins';
+
+//base
+@import 'base/reset',
+'base/base';
+
+
+// layout
+
+@import 
+'layout/header',
+'layout/secound-header',
+'layout/login-main',
+'layout/sign-main',
+'layout/main',
+'layout/footer';
+
+
+
+@import
+'components/login-data',
+'components/sign-data',
+'components/main-search-bar',
+'components/caini-adoptati',
+'components/istoric-adoptii',
+'components/main-img',
+'components/lista-raselor',
+'components/select-img',
+'components/galerie',
+'components/pagination',
+'components/galerie-img';

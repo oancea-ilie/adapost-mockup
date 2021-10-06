@@ -1,0 +1,16 @@
+.sign-main{
+    padding-top: 4rem;
+    @include flex($disp:flex,$dir:column,$just:null ,$all:center);
+
+    height: 92vh;
+    background-image: url(/img/sign-background.jpg);
+    background-position: center;
+
+
+    @extend %side;
+    h2{
+        color: white;
+        font-size: 2rem;
+    }
+
+}
