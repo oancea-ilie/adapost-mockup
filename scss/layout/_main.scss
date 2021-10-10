@@ -3,8 +3,9 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    
+    position: relative;
     @extend %side;
+
     a{
         transition: .3s all;
         text-align: center;
@@ -25,6 +26,38 @@
         text-align: center;
     }
 
+    @include mq('sm'){
 
+        a{
+            width: 60%;
+            margin: 1.3rem auto 0 auto;
+        }
+
+        h2{
+            font-size: 1.6rem;
+        }
+    }
+
+    @include mq('md'){
+
+        a{
+            width: 45%;
+        }
+
+        h2{
+            font-size: 1.8rem;
+        }
+    }
+
+    @include mq('lg'){
+
+        a{
+            width: 33%;
+        }
+
+        h2{
+            font-size: 2rem;
+        }
+    }
 
 }

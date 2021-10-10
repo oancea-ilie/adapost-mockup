@@ -7,4 +7,9 @@
     margin-top: 1rem;
     margin-bottom: 0;
     border-radius: 5px;
+
+    
+    @include mq('sm'){
+        height: 140px;
+    }
 }

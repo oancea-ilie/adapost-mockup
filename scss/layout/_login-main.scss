@@ -6,11 +6,28 @@
     height: 92vh;
     background-image: url(/img/background.jpg);
     background-position: top;
+    
+    transition: 1s all;
+    position: absolute;
+    top: 0;
+    left: 100%;
 
-
+    border-radius: 5rem 0 0 5rem;
     @extend %side;
     h2{
         color: white;
         font-size: 2rem;
     }
+    p{
+        a{
+            padding: 0;
+            padding-left: 0.4rem;
+            margin-top: 0;
+            background-color: transparent;
+        }
+        a:hover{
+            background-color: transparent;
+        }
+    }
+
 }

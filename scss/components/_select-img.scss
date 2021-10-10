@@ -6,4 +6,20 @@
     background-image: url(/img/dog1.jpg);
     background-size: cover;
     background-position: center;
+
+    @include mq('sm'){
+
+        max-width: 480px;
+        margin: 0.5rem auto 0 auto;
+    }
+    
+    @include mq('md'){
+
+        width: 70%;
+        margin: 0.5rem auto 0 auto;
+    }
+
+    @include mq('lg'){
+        width: 50%;
+    }
 }

@@ -22,4 +22,27 @@
         cursor: pointer;
         color: $primary;
     }
+
+    @include mq('sm'){
+
+        input{
+            width: 55%;
+            padding: 0.4rem 1rem;
+        }
+    }
+
+    
+    @include mq('md'){
+
+        input{
+            width: 45%;
+        }
+    }
+
+    @include mq('lg'){
+
+        input{
+            width: 30%;
+        }
+    }
 }

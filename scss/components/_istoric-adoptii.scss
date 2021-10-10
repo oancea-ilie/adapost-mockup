@@ -7,6 +7,7 @@
         margin: 1.5rem 0;
     }
     table{
+        width: 100%;
         background-color: $primary;
         color: white;
         border-radius: 4px;
@@ -17,6 +18,50 @@
         }
         td{
             padding: 0.5rem;
+        }
+    }
+
+    
+    @include mq('sm'){
+
+        h2{
+            font-size: 1.6rem;
+        }
+
+        table{
+            width: 100%;
+            max-width: 480px;
+            th{
+                font-size: 1.4rem;
+            }
+            td{
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    @include mq('md'){
+
+        h2{
+            font-size: 1.8rem;
+        }
+
+        table{
+            width: 70%;
+            margin: 0 auto;
+
+            th{
+                font-size: 1.4rem;
+            }
+            td{
+                font-size: 1.2rem;
+            }
+        }
+    }
+
+    @include mq('lg'){
+        h2{
+            font-size: 2rem;
         }
     }
 }

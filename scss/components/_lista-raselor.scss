@@ -13,4 +13,33 @@
         font-size: 1.2rem;
     }
 
+    @include mq('sm'){
+        h2{
+            font-size: 1.6rem;
+        }
+
+        @include mq('sm'){
+
+            select{
+                width: 100%;
+                max-width: 480px;
+                margin: 0.5rem auto 0 auto;
+            }
+        }
+    }
+
+    @include mq('md'){
+        h2{
+            font-size: 1.8rem;
+        }
+        select{
+            width: 70%;
+            margin: 0 auto;
+        }
+    }
+    @include mq('lg'){
+        select{
+            width: 50%;
+        }
+    }
 }
